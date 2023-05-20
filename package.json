@@ -1,6 +1,6 @@
 {
-	"name": "t4rn",
-	"version": "1.0.0",
+	"name": "bonapoly",
+	"version": "0.1.0",
 	"private": true,
 	"workspaces": [
 		"apps/*",
@@ -13,12 +13,12 @@
 		"format": "prettier --write \"**/*.{ts,tsx,md}\""
 	},
 	"devDependencies": {
-		"prettier": "^2.7.1",
-		"turbo": "latest"
+		"prettier": "^2.8.8",
+		"turbo": "^1.9.8"
 	},
 	"engines": {
-		"pnpm": ">=7.5.0",
-		"node": ">=16.0.0"
+		"pnpm": ">=8.4.0",
+		"node": ">=18.16.0"
 	},
-	"packageManager": "pnpm@7.6.0"
+	"packageManager": "pnpm@8.5.1"
 }
