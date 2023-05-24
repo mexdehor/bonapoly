@@ -1,7 +1,7 @@
 {
 	"name": "bonapoly",
 	"version": "0.1.0",
-	"private": true,
+	"private": false,
 	"workspaces": [
 		"apps/*",
 		"packages/*"
@@ -14,7 +14,7 @@
 	},
 	"devDependencies": {
 		"prettier": "^2.8.8",
-		"turbo": "^1.9.8"
+		"turbo": "^1.9.9"
 	},
 	"engines": {
 		"pnpm": ">=8.4.0",
