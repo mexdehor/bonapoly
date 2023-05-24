@@ -10,11 +10,13 @@
 		"build": "turbo run build",
 		"dev": "turbo run dev --parallel",
 		"lint": "turbo run lint",
-		"format": "prettier --write \"**/*.{ts,tsx,md}\""
+		"format": "prettier --write \"**/*.{ts,tsx,md}\"",
+		"prepare": "husky install"
 	},
 	"devDependencies": {
 		"prettier": "^2.8.8",
-		"turbo": "^1.9.9"
+		"turbo": "^1.9.9",
+		"husky": "^8.0.0"
 	},
 	"engines": {
 		"pnpm": ">=8.4.0",
